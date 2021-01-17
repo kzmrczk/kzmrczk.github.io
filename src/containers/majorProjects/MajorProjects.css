@@ -1,0 +1,32 @@
+.project-heading {
+  font-size: 56px;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0px;
+}
+.project-subtitle {
+  text-transform: uppercase;
+  margin: 0px;
+  margin-bottom: 50px;
+}
+.subTitle {
+  color: #868e96;
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+  .project-heading {
+    font-size: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .project-heading {
+    font-size: 30px;
+    text-align: center;
+  }
+  .project-subtitle {
+    font-size: 16px;
+    line-height: normal;
+    text-align: center;
+  }
+}
